@@ -1,0 +1,58 @@
+{
+  "user": {
+    "id": "demoUser01",
+    "name": "Nikita",
+    "email": "nikita.demo@example.com",
+    "mood": "😊 Motivated"
+  },
+  "career": {
+    "selectedPath": "Full Stack Developer",
+    "advisorNotes": [
+      "Focus on building real-world projects.",
+      "Strengthen Data Structures & Algorithms.",
+      "Keep updating your GitHub portfolio."
+    ]
+  },
+  "skills": {
+    "current": ["HTML", "CSS", "JavaScript"],
+    "learning": ["React", "Node.js", "MongoDB"],
+    "completed": ["Git & GitHub Basics"]
+  },
+  "roadmap": [
+    {
+      "stage": "Frontend Basics",
+      "progress": 70,
+      "tasks": [
+        { "name": "HTML Fundamentals", "done": true },
+        { "name": "CSS Basics", "done": true },
+        { "name": "JavaScript Fundamentals", "done": false }
+      ]
+    },
+    {
+      "stage": "Frontend Advanced",
+      "progress": 40,
+      "tasks": [
+        { "name": "React.js", "done": false },
+        { "name": "TailwindCSS", "done": true }
+      ]
+    },
+    {
+      "stage": "Backend",
+      "progress": 20,
+      "tasks": [
+        { "name": "Node.js", "done": false },
+        { "name": "Express.js", "done": false }
+      ]
+    }
+  ],
+  "planner": [
+    { "day": "Monday", "task": "Revise React Basics" },
+    { "day": "Wednesday", "task": "Practice DSA Problems" },
+    { "day": "Friday", "task": "Work on Portfolio Project" }
+  ],
+  "resources": [
+    { "title": "FreeCodeCamp JS Course", "link": "https://www.freecodecamp.org/" },
+    { "title": "React Docs", "link": "https://react.dev/" },
+    { "title": "Node.js Handbook", "link": "https://nodejs.dev/" }
+  ]
+}
